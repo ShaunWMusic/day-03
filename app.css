@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 1rem;
+  color: #c00;
+}
+
+.profile-list{
+  overflow: auto;
+}
+
+.question {
+  text-align: center;
+}
+
+.profile {
+  float: left;
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem;
+  text-align: center;
+}
+
+.btn {
+display: block;
+width: auto;
+margin:auto;
+
+background: none;
+border: #eee solid 0.2rem;
+padding: 0.5rem 1rem;
+color: inherit;
+font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  /* Grow up to 65rem */
+  max-width: 65rem;
+  /* Center if there is width left */
+  margin: 0 auto;
+}
